@@ -1,136 +1,13 @@
 $icon: 400 1em/50px 'FontAwesome';
 
-.social{
-margin: 0 auto;
-padding-top: 100px;
-width: 400px;
-
-ul{
-  li{
-    background: #222;
-    border-radius: 50;
-    float: left;
-    height: 50px;
-    list-style: none;
-    margin: 0 10px;
-    width: 50px;
-
-    &:before{
-      font: $icon;
-    }
-
-    &:hover{
-      animation: transform .5s forwards, shadow 1s forwards;
-      -ms-animation: transform .5s forwards, shadow 1s forwards;
-      -moz-animation: transform .5s forwards, shadow 1s forwards;
-      -webkit-animation: transform .5s forwards, shadow 1s forwards;
-
-    }
-  }
-
-  .facebook{
-    &:hover{
-      background: #3b5998;
-    }
-
-    &:before{
-      color: #fff;
-      content:'\f09a';
-      display: block;
-      line-height: 50px;
-      text-align: center;
-    }
-  }
-
-  .twitter{
-    &:hover{
-      background: #00aced;
-    }
-
-    &:before{
-      color: #fff;
-      content:'\f099';
-      display: block;
-      line-height: 50px;
-      text-align: center;
-    }
-  }
-
-  .google{
-    &:hover{
-      background: #dd4b39;
-    }
-
-    &:before{
-      color: #fff;
-      content:'\f0d5';
-      display: block;
-      line-height: 50px;
-      text-align: center;
-    }
-  }
-
-  .instagram{
-    &:hover{
-      background: #517fa4;
-    }
-
-    &:before{
-      color: #fff;
-      content:'\f16d';
-      display: block;
-      line-height: 50px;
-      text-align: center;
-    }
-  }
+#head{
+  background-color: black;
 }
-}
+
+
 @import url('../../../maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 
-a, a:hover {
-	text-decoration: none;
-}
 
-.socialbtns, .socialbtns ul, .socialbtns li {
-	margin: 0;
-	padding: 5px;
-}
-
-.socialbtns li {
-    list-style: none outside none;
-    display: inline-block;
-}
-
-.socialbtns .fa {
-    color: #FFF;
-	background-color: #000;
-	width: 40px;
-    height: 40px;
-    padding-top: 12px;
-	border-radius: 20px;
-	-moz-border-radius: 20px;
-	-webkit-border-radius: 20px;
-	-o-border-radius: 20px;
-  transition: all ease 0.3s;
-    -moz-transition: all ease 0.3s;
-    -webkit-transition: all ease 0.3s;
-    -o-transition: all ease 0.3s;
-  	transform: rotate(-360deg);
-	-moz-transform: rotate(-360deg);
-	-webkit-transform: rotate(-360deg);
-	-o-transform: rotate(-360deg);
-}
-
-.socialbtns .fa:hover {
-	transition: all ease 0.3s;
-    -moz-transition: all ease 0.3s;
-    -webkit-transition: all ease 0.3s;
-    -o-transition: all ease 0.3s;
-	transform: rotate(360deg);
-	-moz-transform: rotate(360deg);
-	-webkit-transform: rotate(360deg);
-	-o-transform: rotate(360deg);
-}
 
 
 @-webkit-keyframes transform {
@@ -188,7 +65,7 @@ to {
 
 
 body{
-  background: #fff;
+  background: black;
   color: #666666;
   font-family: "Open Sans", sans-serif;
 }
@@ -809,7 +686,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 .section-header .section-title {
   font-size: 32px;
-  color: #111;
+  color: white;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
@@ -819,7 +696,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-header .section-description {
   text-align: center;
   padding-bottom: 40px;
-  color: #999;
+  color: white;
 }
 
 /* About Us Section
@@ -1198,7 +1075,7 @@ body.mobile-nav-active #mobile-nav-toggle {
    font-size: 35px;
    font-weight: 700;
    margin-bottom: 25px;
-   color: black;
+   color: white;
 }
 
 #speaker-in p{
@@ -1237,4 +1114,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 #card3{
     background-image: url(../img/wds8.JPG);
 }
+
+h3.section-title{
+  color: white;
+}
+
+
 
